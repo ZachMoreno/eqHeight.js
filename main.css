@@ -1,0 +1,211 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Roboto, Arial;
+  padding: 30px;
+  margin-top: 0px;
+}
+
+.center {
+   text-align: center;
+   font-weight: 300;
+   color: #00796B;
+}
+
+/* /////////////////////////////////
+    cards 
+///////////////////////////////// */
+
+.card {
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+     -moz-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  color: #444;
+  background-color: white;
+  padding: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  /*min-height: 206px;*/
+}
+
+h1.card-header,
+h2.card-header,
+h3.card-header,
+h4.card-header {
+  color: white;
+  padding: 15px 15px;
+  width: 100%;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+     -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  border-bottom: none;
+}
+
+h1.card-header {
+  font-weight: 100;
+}
+
+[class*='col-'] .card:first-of-type  {
+  margin-top: 20px;
+}
+
+.card#info {
+  color: #4D7FB2;
+  margin-top: 30px;
+}
+
+#draft.label {
+  color: #fff;
+  position: absolute;
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom-left-radius: 0px;
+}
+
+#updated-date-time {
+  margin: 13px 0px 0px -15px;
+  line-height: 14px;
+  color: #8D8D8D;
+}
+
+.card#info h1 {
+  text-align: center;
+  font-weight: 100;
+  
+}
+
+.card .card-header.tall {
+  height: 150px;
+  margin: 0px;
+}
+
+.statewide .card-header {
+  background-color: #4d7fb2;
+  border-top: 4px solid #283593;
+}
+
+.statewide .label {
+  background-color: #283593;
+}
+
+.san-diego .card-header {
+  background-color: #4DB6AC;
+  border-top: 4px solid #00796B;
+}
+
+.san-diego .label {
+  background-color: #00796B;
+}
+
+.enforcement .card-header {
+  background-color: #90A4AE;
+  border-top: 4px solid #455A64;
+}
+
+.enforcement .label {
+  background-color: #455A64;
+}
+
+.south-central .card-header {
+  background-color: #FF8A65;
+  border-top: 4px solid #E64A19;
+}
+
+.south-central .label {
+  background-color: #E64A19;
+}
+
+.los-angeles .card-header {
+  background-color: #F06292;
+  border-top: 4px solid #C2185B;
+}
+
+.los-angeles .label {
+  background-color: #C2185B;
+}
+
+.orange-county .card-header {
+  background-color: #FFB74D;
+  border-top: 4px solid #F57C00;
+}
+
+.orange-county .label {
+  background-color: #F57C00;
+}
+
+.north-coast .card-header {
+  background-color: #AED581;
+  border-top: 4px solid #689F38;
+}
+
+.north-coast .label {
+  background-color: #689F38;
+}
+
+.energy-res-fed .card-header {
+  background-color: #4DD0E1;
+  border-top: 4px solid #0097A7;
+}
+
+.energy-res-fed .label {
+  background-color: #0097A7;
+}
+
+.sf .card-header {
+  background-color: #E57373;
+  border-top: 4px solid #D32F2F;
+}
+
+.sf .label {
+  background-color: #D32F2F;
+}
+
+.central-coast .card-header {
+  background-color: #9575CD;
+  border-top: 4px solid #512DA8;
+}
+
+.central-coast .label {
+  background-color: #512DA8;
+}
+
+.card .card-body {
+  padding: 15px;
+  height: inherit;
+}
+
+.card.full-bleed {
+  padding-bottom: 0px;
+}
+
+.card p:first-of-type {
+  margin-top: 0px;
+}
+
+.card .pull-over-card-header {
+  width: 90%;
+  display: block;
+  margin: auto;
+  margin-top: -80px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+     -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+
+
+.grey-background {
+  background-color: #e5e5e5;
+}
